@@ -225,8 +225,8 @@ p {
 }
 
 .major__description {
-  width: 20em;
-  height: 10em;
+  width: 400px;
+  height: 200px;
   background-color: #eeeeee;
   margin-left: 50px;
   border: 2px solid var(--color-blue);

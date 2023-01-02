@@ -398,9 +398,9 @@ p {
   :root {
     --font-large: 30px;
     --font-medium: 18px;
-    --font-regular: 16px;
-    --font-small: 14px;
-    --font-micro: 12px;
+    --font-regular: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
   }
 
   .navbar__toggle-btn {

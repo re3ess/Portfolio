@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>help me</title>
+    <meta name="somebody" content="help me" />
+    <link rel="icon" type="image/png" href="imgs/seed.png" />
+    <script
+      src="https://kit.fontawesome.com/ad5738baa5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fa-solid fa-seedling" style="color: #14cc60"></i>
+        <a href="#">Dong Kyo</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#mywork">My Work</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button  -->
+
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/peng.png" alt="DK's photo" class="home__avatar" />
+        <h1 class="home__title">안녕하세요 !<br />믿고 나아가는 개발자</h1>
+        <h2 class="home__description">'서동교' 입니다.</h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section">
+      <h1>🌱</h1>
+      <div class="section__text">
+        <div></div>
+        <div>
+          <h2>· 새로 알게 된 것들을 정리하고 기록합니다</h2>
+          <h2>· 개발 지식을 쌓기 위해서 개인 공부합니다</h2>
+          <h2>· 한탄과 포기보단 믿고 나아갑니다</h2>
+        </div>
+        <div></div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="" alt="" class="job__logo" />
+          <p class="job__name"></p>
+          <p class="job__period"></p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Learned Skills</h1>
+        <div class="about__majors">
+          <div class="major__introduce">
+            <div class="major">
+              <div class="major__icon">
+                <i class="fa-brands fa-html5" style="color: #e44d26"></i>
+              </div>
+              <h2 class="major__title">HTML</h2>
+            </div>
+            <div class="major__description">
+              <h3>
+                · 기본 HTML 태그를 이용한 웹페이지 구성 <br />
+                · table 태그를 이용한 표 작성 <br />
+                · input, select 태그를 이용한 form 작성
+              </h3>
+            </div>
+          </div>
+          <div class="major__introduce">
+            <div class="major">
+              <div class="major__icon">
+                <i class="fa-brands fa-css3-alt" style="color: #379ad6"></i>
+              </div>
+              <h2 class="major__title">CSS</h2>
+            </div>
+            <div class="major__description">
+              <h3>
+                · CSS 선택자를 이용한 스타일 부여 <br />
+                · position, display 속성을 이용한 레이아웃<br />
+                · transform, transition, animation 변형<br />
+                · @media 이용한 반응형 웹 구성
+              </h3>
+            </div>
+          </div>
+          <div class="major__introduce">
+            <div class="major">
+              <div class="major__icon">
+                <img class="skills__js" src="./imgs/JS.png" alt="JS" />
+              </div>
+              <h2 class="major__title">JavaScript</h2>
+            </div>
+            <div class="major__description">
+              <h3>
+                · 변수 선언 차이 이해<br />
+                · if else, switch, 삼항연산자 이용한 조건문<br />
+                · for, for each, while 이용한 반복문<br />
+                · HTML DOM element 접근 및 메서드 사용<br />
+                · 화살표 함수, 함수 사용
+              </h3>
+            </div>
+          </div>
+          <div class="major__introduce">
+            <div class="major">
+              <div class="major__icon">
+                <i class="fa-brands fa-react" style="color: #5ed3f3"></i>
+              </div>
+              <h2 class="major__title">React</h2>
+            </div>
+            <div class="major__description">
+              <h3>
+                · JSX 문법 사용<br />
+                · 클래스형 및 함수형 컴포넌트 생성<br />
+                · props 이용한 컴포넌트 간 데이터 전달<br />
+                · onClick, onChange 등 이벤트 핸들링<br />
+                · useState, useRef, useEffect Hooks 활용<br />
+                · react-router 이용한 라우팅 관리
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work -->
+    <section id="mywork" class="section">
+      <h1>My Work</h1>
+      <div class="work__projects">
+        <div></div>
+        <a href="https://www.naver.com" class="project" target="_blank">
+          <img class="project__img" src="imgs/micon.png" alt="뿔버섯" />
+          <div class="project__description">
+            <h1>Studio Ghibli</h1>
+            <span>
+              HTML & CSS <br />
+              JavaScript
+            </span>
+          </div>
+        </a>
+        <a href="https://www.naver.com" class="project" target="_blank">
+          <img class="project__img" src="imgs/micon2.png" alt="초록버섯" />
+          <div class="project__description">
+            <h1>To Do List</h1>
+            <span>
+              HTML & CSS <br />
+              JavaScript <br />
+              React</span
+            >
+          </div>
+        </a>
+        <a href="https://www.naver.com" class="project" target="_blank">
+          <img class="project__img" src="imgs/micon3.png" alt="파랑버섯" />
+          <div class="project__description">
+            <h1>Monit</h1>
+            <span>
+              HTML & CSS <br />
+              JavaScript <br />
+              React
+            </span>
+          </div>
+        </a>
+        <div></div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <footer class="contact__footer" id="contact">
+      <h1 class="contact__title">Contact</h1>
+      <h2 class="contact__email">re4ess@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/re3ess" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://yangpa2.tistory.com/" target="_blank">
+          <i class="fa-solid fa-leaf"></i>
+        </a>
+      </div>
+    </footer>
+    <button class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
